@@ -1,0 +1,33 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon app.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thachkg1999/Task-Manager.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "task",
+    "manager"
+  ],
+  "author": "Thach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thachkg1999/Task-Manager/issues"
+  },
+  "homepage": "https://github.com/thachkg1999/Task-Manager#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
